@@ -15,7 +15,8 @@ def find_max_value(list_of_int, max_value):
     # initializes max value to -1.
     max_value = -1
     # Loop used to find max value.
-    for counter in range(0, 10):
+    length = len(list_of_int)
+    for counter in range(0, length):
         if max_value < list_of_int[counter]:
             max_value = list_of_int[counter]
         else:
